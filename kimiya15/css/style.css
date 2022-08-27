@@ -1,0 +1,64 @@
+.container {
+    max-width: 1440px;
+    background-color: antiquewhite;
+}
+.row {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+
+.box {
+    width: 350px;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 2rem;
+}
+
+.card4 {
+    order: 1;
+}
+
+.card5 {
+    order: 2;
+}
+
+.card6 {
+    order: 3;
+}
+
+.main {
+
+}
+
+ul , li {
+    display: inline-block;
+    margin-left: 4rem;
+}
+
+.i {
+    margin-top: 300px;
+}
+
+.a {
+    position: relative;
+    background-image: url(../images/aks-gol-54\ \(1\).jpg);
+}
+
+.b {
+    position: absolute;
+    background-image: url(../images/aks-gol-54\ \(1\).jpg);
+}
+
+.c {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: rgb(250, 246, 246);
+    font-size: 2rem;
+    text-align: center;
+}
